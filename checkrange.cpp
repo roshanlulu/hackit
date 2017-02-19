@@ -1,11 +1,13 @@
 #include <iostream>
 #include <math.h>
+#include <limits.h>
+
 using namespace::std;
 
 int main(){
   int a, b;
   int maxofint;
-  maxofint = pow(2, (8*sizeof(int)) - 1) -1;
+  maxofint = INT_MAX;
   cout << "Maxofint = " << maxofint << endl;
   cout << "Enter input" << endl;
   cout << "a = ";
